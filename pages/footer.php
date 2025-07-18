@@ -15,9 +15,9 @@
         </div>
         <div class="ft-links">
             <ul class="ft-links font">
-                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-square-github"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=https://www.linkedin.com/home"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a></li>
+                <li><a href="https://www.instagram.com/?flo=true"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>

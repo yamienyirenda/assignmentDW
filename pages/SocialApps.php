@@ -51,7 +51,7 @@ $result = $stmt->get_result();
           <?php while($row = $result->fetch_assoc()): ?>
             <div class="app-card">
               <?php if (!empty($row['logo'])): ?>
-                <img src="../images/<?= htmlspecialchars($row['logo']) ?>" alt="<?= htmlspecialchars($row['app_name']) ?>" class="app-logo" />
+                <img src="../video/<?= htmlspecialchars($row['logo']) ?>" alt="<?= htmlspecialchars($row['app_name']) ?>" class="app-logo" />
               <?php endif; ?>
               <h2><?= htmlspecialchars($row['app_name']) ?></h2>
               <p><strong>Description:</strong> <?= htmlspecialchars($row['description']) ?></p>
@@ -63,23 +63,26 @@ $result = $stmt->get_result();
         <?php endif; ?>
       </div>
     </section>
-     <section class="cards-section">
+     <section class="cards-section font">
             <div class="card-container">
 
                 <div class="info-card">
-                    <img src="images/person1.jpg" alt="Social image 1">
+                  <h1>Meditate</h1><br>
+                    <img src="../video/peace.jpeg" alt="Social image 1">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>
 
                 <div class="info-card">
-                    <img src="images/person2.jpg" alt="Social image 2">
+                  <h1>Exercise</h1><br>
+                    <img src="../video/working.jpeg" alt="Social image 2">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>
 
                 <div class="info-card">
-                    <img src="images/person3.jpg" alt="Social image 3">
+                  <h1>Mentorship</h1><br>
+                    <img src="../video/mentor.jpeg" alt="Social image 3">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>

@@ -76,25 +76,29 @@ include("../control/connection.php");
 
                 <input type="submit" value="Send Message" class="btn" name="contactSubmit">
             </form>
+            <div class="links">
+                <button id="#">Terms and Policy</button>
+                
+            </div>
         </div>
 
          <section class="cards-section font">
             <div class="card-container">
 
                 <div class="info-card">
-                    <img src="images/person1.jpg" alt="Social image 1">
+                    <img src="../video/Build.jpeg" alt="Social image 1">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>
 
                 <div class="info-card">
-                    <img src="images/person2.jpg" alt="Social image 2">
+                    <img src="../video/Business link.jpeg" alt="Social image 2">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>
 
                 <div class="info-card">
-                    <img src="images/person3.jpg" alt="Social image 3">
+                    <img src="../video/grow.jpeg" alt="Social image 3">
                     <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
                         information among their users.</p>
                 </div>

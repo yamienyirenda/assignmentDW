@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
 
 </head>
 
@@ -61,36 +62,31 @@
 
                 <div class="info-card">
                     <img src="../video/safe4.jpeg" alt="Social image 1">
-                    <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
-                        information among their users.</p>
+                    <p>Never share your full name, home address, school name, or phone number online1</p>
                 </div>
 
                 <div class="info-card">
                     <img src="../video/safe5.jpeg" alt="Social image 2">
-                    <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
-                        information among their users.</p>
+                    <p>Choose passwords that are hard to guess and don’t share them with anyone.</p>
                 </div>
 
                 <div class="info-card">
                     <img src="../video/safe6.jpeg" alt="Social image 3">
-                    <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
-                        information among their users.</p>
+                    <p>Set your accounts so only trusted friends can see your posts and activity</p>
                 </div>
 
             </div>
         </section>
-        
+
         <section>
             <div class="content2 font">
                 <div class="right-column">
                     <div class="boxA">
-                        <h2>What is Social Media?</h2>
+                        <h2>Lets talk about Privacy</h2><br><br>
                         <div class="conn">
-                            <p>Social media refers to a variety of technologies that facilitate the sharing of ideas and
-                                information among their users. <br><br>Social media platforms allow people to access
-                                information in real time, to connect with
-                                others, and to find niche communities. At its best, it makes the world more
-                                interconnected.</p>
+                            <p>Privacy protects your personal information from being misused. It helps you stay in
+                                control of who sees your data, photos, and posts. By managing your privacy settings, you
+                                reduce the risk of identity theft, online bullying, scams, and unwanted contact. </p>
 
                         </div>
                     </div>
@@ -98,21 +94,15 @@
 
                 <div class="left-column">
                     <div class="boxB">
-                        <h2>Video</h2>
-                        <!-- Embed a video or placeholder -->
-                        <div class="video-placeholder">
-                            <iframe src="https://www.youtube.com/embed/vJmANYneTQs?si=YAoAq0GEhMStVwh5"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
+                        <dotlottie-wc src="https://lottie.host/7d995756-d101-48f5-a7e0-67290febabc6/QpA94uozvA.lottie"
+                            style="width: 300px;height: 300px" speed="1" autoplay loop></dotlottie-wc>
                     </div>
                 </div>
             </div>
         </section>
 
     </main>
-       <script src="../js/main.js" defer></script>
+    <script src="../js/main.js" defer></script>
     <?php include('footer.php'); ?>
 </body>
 
